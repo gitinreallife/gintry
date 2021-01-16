@@ -9,13 +9,14 @@ import (
 )
 
 // Replace with your own connection parameters
-var server = "172.18.133.110"
+var server = "111.111.111.111"
 var port = 1433
 var user = "sa"
 var password = "starbuck"
 var database = "LAS"
 var db *sql.DB
 
+//ConnectLASDB connect to sql server db
 func ConnectLASDB() {
 	var err error
 
